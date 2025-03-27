@@ -14,5 +14,31 @@
 				&none &none &none &none &none &none &none &none &none &none
             >;
         };
+        fn_layer {
+            display-name = "Fn";
+            bindings =<
+                &none &none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none
+        };
+
+        extra1 {
+            status = "reserved";
+            bindings =<
+                &none &none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none
+        };
+
+        extra2 {
+            status = "reserved";
+            bindings =<
+                &none &none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none &none
+				&none &none &none &none &none &none &none &none &none &none
+        };
     };
 };
