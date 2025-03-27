@@ -1,0 +1,3 @@
+
+config SHIELD_44KEYJP
+    def_bool $(shields_list_contains,44keyjp)
